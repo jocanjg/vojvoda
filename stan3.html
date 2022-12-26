@@ -98,39 +98,44 @@
 
 		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
 
-		<div class="side-panel-wrap">
+		<div id="side-panel">
 
-			<div class="widget clearfix">
-
-				<a href="index.html"><img src="slike/logo.png" alt="Canvas Logo" height="50"></a>
-
-				<p>Zakažite posetu našem kompleksu i uverićete se zašto smo lideri u svom poslu👇</p>
-
-				<div class="widget quick-contact-widget form-widget border-0 pt-0 clearfix">
-
-					<h4>Pošalji upit</h4>
-					<div class="form-result"></div>
-					<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
-						<div class="form-process">
-							<div class="css3-spinner">
-								<div class="css3-spinner-scaler"></div>
+			<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+	
+			<div class="side-panel-wrap">
+	
+				<div class="widget clearfix">
+	
+					<a href="index.html"><img src="slike/logo.png" alt="Canvas Logo" height="50"></a>
+	
+					<p>Zakažite posetu našem kompleksu i uverićete se zašto smo lideri u svom poslu👇</p>
+					<a href="tel:+381653059201" class="button button-rounded button-white button-light m-0">+381 65 305 9201</a>
+					<div class="widget quick-contact-widget form-widget border-0 pt-0 clearfix">
+	
+						<h4>Pošalji upit</h4>
+						<div class="form-result"></div>
+						<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+							<div class="form-process">
+								<div class="css3-spinner">
+									<div class="css3-spinner-scaler"></div>
+								</div>
 							</div>
-						</div>
-						<input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Ime i prezime" />
-						<input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Kontkat telefon" />
-						<textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Poruka"></textarea>
-						<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-						<input type="hidden" name="prefix" value="quick-contact-form-">
-						<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d m-0" value="submit">Pošalji</button>
-					</form>
-
+							<input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Ime i prezime" />
+							<input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Kontkat telefon" />
+							<textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Poruka"></textarea>
+							<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+							<input type="hidden" name="prefix" value="quick-contact-form-">
+							<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d m-0" value="submit">Pošalji</button>
+						</form>
+	
+					</div>
+	
+	
 				</div>
-
-
+	
 			</div>
-
+	
 		</div>
-
 	</div>
 
 	<!-- Document Wrapper
@@ -159,16 +164,16 @@
 						============================================= -->
 						<nav class="primary-menu with-arrows">
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="index.html"><div>Početna</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="index.html"><div>Početna</div></a></li>
 								<!-- Mega Menu -->
 								
-								<li class="menu-item"><a class="menu-link" href="ponuda.html"><div>Ponuda stanova</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Lokacija</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="ponuda.html"><div>Ponuda stanova</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="https://goo.gl/maps/XFguo5dwvsDMMvLb7"><div>Lokacija</div></a></li>
 								
-								<li class="menu-item"><a class="menu-link" href="#"><div>Dodatne pogodnosti</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="https://granitdoo.com/zgrada-vojvode-putnika/"><div>Dodatne pogodnosti</div></a></li>
 								
 								
-								<li class="menu-item"><a class="menu-link" href="#"><div>Kontakt</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="tel:+381653059201"><div>Kontakt</div></a></li>
 							</ul>
 						</nav><!-- #primary-menu end -->
 
@@ -481,9 +486,9 @@
 									<div class="widget widget_links widget-li-noicon">
 										<h4>Vojvoda Kompleks</h4>
 										<ul>
-											<li><a href="#">Pocetna</a></li>
-											<li><a href="#">Ponuda stanova</a></li>
-											<li><a href="#">Kontakt</a></li>
+											<li><a href="index.html">Pocetna</a></li>
+											<li><a href="ponuda.html">Ponuda stanova</a></li>
+											<li><a href="tel:+381653059201">Kontakt</a></li>
 										</ul>
 									</div>
 								</div>
@@ -491,10 +496,10 @@
 									<div class="widget widget_links widget-li-noicon">
 										<h4>Stanovi</h4>
 										<ul>
-											<li><a href="#">Jednoiposoban</a></li>
-											<li><a href="#">Dvosobni</a></li>
-											<li><a href="#">Trosobni</a></li>
-											<li><a href="#">Penthouse</a></li>
+											<li><a href="ponuda.html">Jednoiposoban</a></li>
+											<li><a href="ponuda.html">Dvosobni</a></li>
+											<li><a href="ponuda.html">Trosobni</a></li>
+											<li><a href="ponuda.html">Penthouse</a></li>
 										</ul>
 									</div>
 								</div>
@@ -502,9 +507,9 @@
 									<div class="widget widget_links widget-li-noicon">
 										<h4>Granit DOO</h4>
 										<ul>
-											<li><a href="#">Pocetna</a></li>
-											<li><a href="#">Info</a></li>
-											<li><a href="#">Kontakt</a></li>
+											<li><a href="https://granitdoo.com/">Pocetna</a></li>
+											<li><a href="https://granitdoo.com/o-nama/">O nama</a></li>
+											<li><a href="https://granitdoo.com/kontakt/">Kontakt</a></li>
 										</ul>
 									</div>
 								</div>
